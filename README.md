@@ -12,7 +12,8 @@
 1. 将项目生成为jar包，将jar包放在shadowsocks文件夹中（lib中有已经生成好的jar） 
 1. 2. 将lib中的vbs文件放在启动项里 `C:\Users\‘username’\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup` 
    2. 将lib中的bat文件放在shadowsocks文件夹下
-1. 双击vbs或重启计算机，完成! 
+1. 双击vbs或重启计算机，完成!
+
 ####PostScript
 
 1.使用**Jsoup** 获取Shadowsocks提供的免费账号并填写在本地的配置文件中，保证梯子永久有效。
