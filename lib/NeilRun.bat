@@ -1,1 +1,1 @@
-java -jar E:\NeilLib\NeilSocks.jar
+java -jar E:\shadowsocks\NeilSocks.jar
