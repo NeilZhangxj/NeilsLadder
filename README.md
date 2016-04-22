@@ -4,15 +4,16 @@
 
 ###(所有业务基本均由Java实现， 目前实现了Windows系统)
 
-####傻瓜式教学
+####指南
 
 1. 下载Shadowsocks  [传送门](https://github.com/shadowsocks/shadowsocks-csharp/releases/download/2.5.6/Shadowsocks-win-2.5.6.zip)
    2. E盘根目录创建文件夹shadowsocks
    3. 将exe文件解压在创建的文件夹内（后续版本加入配置文件支持修改路径）
-1. 将项目生成为jar包，将jar包放在shadowsocks文件夹中（lib中有已经生成好的jar） 
+1. 将项目lib文件夹下的jar包放在刚刚创建的shadowsocks文件夹中
 1. 
     2. 将lib中的vbs文件放在启动项里 `C:\Users\‘username’\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup` 
     3. 将lib中的bat文件放在shadowsocks文件夹下
+1. 目前文件路径：启动文件夹中一个vbs文件 `NeilVBS.vbs`，E盘shdowsocks文件夹下`Shadowsocks.exe  NeilRun.bat`
 1. 双击vbs或重启计算机，完成!
 
 ####PostScript
